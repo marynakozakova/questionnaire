@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset= "UTF-8">
+    <title> Анкета </title>
+    <link rel = "stylesheet" href = "main.css">
+    <style>
+        form{
+            margin: 20px 10px 20px 30px;
+        }
+    </style>
+</head>
+<body bgcolor="#f6d1ac">
+    <form action="#" name="user-form">
+        <style>
+            h1{color:#452883}
+            em{color:#452883}
+        </style>
+
+        <p><h1 align="center">Анкета</h1></p>
+        <p><b>Заповніть анкету для вступу до нашого книжкового клубу <em>"Сімейний книжковий клуб"</em></b></p>
+
+        <p><label for="login">Введіть своє ім'я:</label><br><input type="text" id="login" placeholder="Ім'я"></p>
+        <p><label for="password">Введіть пароль:</label><br><input type="password" id="password" maxlength="10"></p>
+
+        <p>Стать:
+            <input type="radio" name="answer" value="a1"><em>Жіноча</em>
+            <input type="radio" name="answer" value="a2"><em>Чоловіча</em>
+        </p>
+        <p><b>Яким книжкам ви віддаєте перевагу?</b><br>
+            <input type="checkbox" name="answer" value="a1"><em>Рукописні</em><br>
+            <input type="checkbox" name="answer" value="a2"><em>Надруковані</em><br>
+            <input type="checkbox" name="answer" value="a3"><em>Аудіо</em><br>
+            <input type="checkbox" name="answer" value="a4"><em>Електронні</em>
+        </p>
+
+        <b>Які жанри Вам довподоби?</b><br>
+            <select size="5" multiple>
+                <option>Романи про кохання</option>
+                <option>Історико-пригодницькі</option>
+                <option>Детективи</option>
+                <option>Фантастика, фентезі</option>
+                <option>Трилери, жахи</option>
+                <option>Психологія</option>
+                <option>Кулінарія</option>
+            </select>
+        </p>
+
+        <p><b>Залиште відгук про останню книгу, що Ви читали:</b><br>
+        <textarea cols="80" rows="10" placeholder="Введіть відповідь тут"></textarea>
+        </p>
+
+        <button type="submit">Готово</button>
+        <button type="reset">Очистити</button>
+        <p>
+            <b>Повна інформація стосовно правил нашого клубу знаходиться на сайті</b>
+            <a href="http://bookclub.ua"><em>bookclub.ua</em></a>
+        </p>
+    </form>
+</body>
+</html>

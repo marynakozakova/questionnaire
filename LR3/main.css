@@ -1,0 +1,13 @@
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #601c60;
+}
+
+em{
+    font-weight: bolder;
+}
+
+form{
+    font-family: "Leelawadee UI";
+}
